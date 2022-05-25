@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Likes</title>
 </head>
 <body>
@@ -14,62 +16,68 @@
         <h2>Your Feed</h2>
 
         <main>
-            <div class="col-1">
-                <img src="images/user-circle.png" alt="" class="avatar">
-                <a href="#">Add an avatar</a>
-                <h3>James Doe</h3>
+            <div class="main-content flex">
+                <div class="col-1 flex">
+                    <div class="my-profile flex">
+                        <img src="images/user-circle.png" alt="" class="avatar">
+                        <a href="#">Add an avatar</a>
+                        <h3>James Doe</h3>
+                    </div>
+                    
+                </div>
+    
+                <div class="col-2">
+                    <div class="user-card">
+    
+                        <div class="username-likes">
+                            <h3>Neil M</h3>
+                            <div class="like-box">
+                                <p><span class="num-likes">9</span>like(s)</p>
+                                <button class="btn">Like</button>
+                            </div>
+    
+                        </div>
+                        <div class="user-description">
+                            <p class="description">
+    
+                            </p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="user-card">
+                        <div class="username-likes">
+                            <h3>Neil M</h3>
+                            <div class="like-box">
+                                <p><span class="num-likes">9</span>like(s)</p>
+                                <button class="btn">Like</button>
+                            </div>
+    
+                        </div>
+                        <div class="user-description">
+                            <p class="description">
+    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="username-likes">
+                            <h3>Neil M</h3>
+                            <div class="like-box">
+                                <p><span class="num-likes">9</span>like(s)</p>
+                                <button class="btn">Like</button>
+                            </div>
+    
+                        </div>
+                        <div class="user-description">
+                            <p class="description">
+    
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-2">
-                <div class="user-card">
-
-                    <div class="username-likes">
-                        <h3>Neil M</h3>
-                        <div class="like-box">
-                            <p><span class="num-likes">9</span>like(s)</p>
-                            <button class="btn">Like</button>
-                        </div>
-
-                    </div>
-                    <div class="user-description">
-                        <p class="description">
-
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="user-card">
-                    <div class="username-likes">
-                        <h3>Neil M</h3>
-                        <div class="like-box">
-                            <p><span class="num-likes">9</span>like(s)</p>
-                            <button class="btn">Like</button>
-                        </div>
-
-                    </div>
-                    <div class="user-description">
-                        <p class="description">
-
-                        </p>
-                    </div>
-                </div>
-                <div class="user-card">
-                    <div class="username-likes">
-                        <h3>Neil M</h3>
-                        <div class="like-box">
-                            <p><span class="num-likes">9</span>like(s)</p>
-                            <button class="btn">Like</button>
-                        </div>
-
-                    </div>
-                    <div class="user-description">
-                        <p class="description">
-
-                        </p>
-                    </div>
-                </div>
-            </div>
+            
         </main>
     </div>
 </body>
