@@ -43,7 +43,7 @@ h2 {
 /* PROFILE INFO */
 .col-1 {
     flex: 1;
-    justify-content: center;
+    justify-content: flex-start;;
 }
 
 .my-profile {
@@ -52,7 +52,7 @@ h2 {
     justify-content: space-evenly;
     border: 2px solid black;
     padding: 0 2rem;
-
+    height: 15rem;
 }
 
 .my-profile img {
@@ -62,5 +62,36 @@ h2 {
 /* USER FEED */
 .col-2 {
     flex: 2;
-    border: 1px solid green;
+}
+
+.user-card {
+    border: 2px solid black;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.username-likes {
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.like-box {
+    justify-content: space-between;
+}
+
+.like-box p {
+    margin-right: 1rem;
+    /* align-items: center; */
+}
+
+.btn {
+    background-color: rgb(255,216,103);
+    padding: 0 1rem;
+    box-shadow: 2px 1px 3px black;
+    cursor: pointer;
+}
+
+.description {
+    margin: 0 1rem 1rem;
 }
